@@ -1,0 +1,49 @@
+#include <stdio.h>
+int main (){
+
+    char operator;
+    double num1;
+    double num2;
+    double result;
+//---------------------------------------
+
+    printf("select the operator u want from the following list (+ / - *) \n");
+    scanf("%c", &operator);
+
+    printf(" enter the first number \n");
+    scanf("%lf", &num1);
+    
+    printf(" eneter the second number \n");
+    scanf("%lf", &num2);
+//---------------------------------------
+
+    switch (operator){
+
+    case '+': 
+        result = num1 + num2;
+        printf(" the result is: %.1lf \n", result); break;
+
+
+    case '-': 
+        result = num1 - num2;
+        printf(" the result is: %.1lf \n", result);break;
+
+
+    case '*': 
+        result = num1 * num2;
+        printf(" the result is: %.1lf \n", result);break;
+
+
+    case '/': 
+        result = num1 / num2;
+        printf(" the result is: %.1lf \n", result);break;
+
+default: 
+        printf("try another input");
+
+
+    }
+ printf ("thanks for using omar calculator");
+   return 0;
+
+}
