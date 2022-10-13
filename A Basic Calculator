@@ -34,9 +34,12 @@ int main (){
         printf(" the result is: %.1lf \n", result);break;
 
 
-    case '/': 
+    case '/': if (num2 == 0)
+     printf("error! devision by zero!\n"); 
+  else     
         result = num1 / num2;
         printf(" the result is: %.1lf \n", result);break;
+        
 
 default: 
         printf("try another input");
