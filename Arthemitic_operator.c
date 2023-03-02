@@ -38,7 +38,6 @@ printf("The answer is:%d\n", result); break;
     case '%': printf("The answer is:%d\n", num1 % num2); break;
     case '*': printf("The answer is:%d", num1 * num2); break;
     default: printf("try another problem\n"); break;
-
 }
 }
     return (0);

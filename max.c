@@ -9,7 +9,7 @@ scanf("%d", &i);
 printf("enter the number\n");
 scanf("%d", &max);
 
-for (x=0;x<i;x++)
+for (x=1;x<i;x++)
 {
   printf("enter numbers\n");
 scanf("%d", &num);  
